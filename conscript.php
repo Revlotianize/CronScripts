@@ -11,6 +11,9 @@
 	passthru("git add .");
 	passthru("git commit -m 'descriptivemessage' ");
 	passthru("git push");
+	
+	echo "The Git status" ."<br>";
+
 	passthru("git status");
 
 	?>
