@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
 </head>
 <body>
+<h1>Git Status</h1>
 <?php
 	// passthru("git init");
 	// passthru("git remote add $project_name $project_git_url");
@@ -48,4 +49,8 @@
 
 	?> -->
 
-	
+	 -->
+	 <?php
+$output = shell_exec('ls -lart');
+echo "<pre>$output</pre>";
+?>
