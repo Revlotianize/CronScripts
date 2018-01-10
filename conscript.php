@@ -4,6 +4,7 @@
 	passthru("git init");
 	passthru("git add .");
 	passthru("git commit -m 'descriptivemessage' ");
+	passthru("status");
 	passthru("git push origin master ");
 	// passthru("git config --global user.name Revlotianize");
 	passthru("git status");
